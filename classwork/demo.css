@@ -13,12 +13,54 @@
     background-image: url("border.png"),url("ferrari.webp");
     background-repeat: no-repeat,repeat;
 } */ 
-
+/* 
 .box{
-    height: 100px;
-    width:100px;
-    box-shadow: 2px 10px 10px black
+    height: 300px;
+    width:500px;
+    box-shadow: 2px 10px 10px black;
+    transform : translate(50px,100px);
+    background-color:black;
+    
+
+   
 }
-  img{
-    border-radius: 50%;
-} 
+img{
+    height: 300px;
+    width:500px;
+    transition:4s;
+    transition-delay:1s;
+    transition :ease-in-out;
+    
+    
+}
+img:hover{
+
+    
+    /* transform : translate(50px,100px)  scale(0.6,0.5) rotateX(90deg) */
+    /* transform:rotate(90deg) */
+    
+/*     
+}  */ 
+
+body{
+
+}
+.box{
+    height:100px;
+    width:100px;
+    background-color: aqua;
+    animation-name :test;
+    animation-duration:10s;
+    animation-iteration-count: 5;
+}
+@keyframes test{
+    /* from{background-color:aqua;}
+    to{background-color:red;} */
+
+    0% {background-color:aqua;}
+    30%{background-color: azure;}
+    50%{background-color: beige;}
+    70%{background-color: blue;}
+    100%{background-color: red;}
+}
+

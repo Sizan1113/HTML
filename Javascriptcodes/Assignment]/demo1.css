@@ -1,0 +1,9 @@
+.one{
+    display:inline-block;
+    height :100px;
+    width : 100px;
+    border :1px solid black;
+    gap:20px;
+    background-color:blue;
+    position:relative;
+}
